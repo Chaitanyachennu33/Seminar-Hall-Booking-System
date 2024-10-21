@@ -1,0 +1,71 @@
+
+
+.admin-hall-body{
+    background: #DCDCDC;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.btn-admin-hall {
+    background-color: #990033 !important;  /* Set background color */
+    color: white !important;  /* Set text color to white for contrast */
+    border-radius: 20px;    /* Optional: Adjust the border radius */
+    text-align: center;     /* Optional: Add padding for better spacing */
+}
+
+
+.hall-admin-card{
+    /* background: linear-gradient(246.64deg, #4B84B7 0%, #1B2033 100%); */
+    background:white!important;
+    border-radius: 1.5rem !important;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.hall-card-text{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+
+}
+
+.number-seat{
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+}
+
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background: white;
+    /* border: 2px solid #000; */
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.modal-text{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.admin-input {
+    font-family: 'Times New Roman', Times, serif !important; /* Apply Times New Roman */
+    padding: 1rem; /* Keep the padding */
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .modal{
+        width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    .modal{
+        width: 80%;
+    }
+  }

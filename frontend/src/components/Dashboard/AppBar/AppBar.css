@@ -1,0 +1,26 @@
+
+
+
+.temp-back{
+    background:white;
+    height: 100vh;
+}
+
+.appbar{
+    background: #990033 !important ;
+
+    /* color: white !important; */
+}
+
+
+
+.text-appbar{
+    /* color: #FFFFFF!important; */
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.dropdown-text{
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,87 @@
+/* General Grid Styling */
+.grid-card-home {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2rem 0;
+}
+
+/* General Card Styling */
+.home-card {
+    background: linear-gradient( #D3D3D3);
+    margin-bottom: 2rem;
+    padding: 1.2rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8); /* Slight shadow */
+    border-radius: 12px;
+}
+
+/* Text styling */
+.text-card-home {
+    margin-top: 1rem !important;
+    color: black !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Button styling */
+.btn-card-home {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 1rem;
+}
+
+.btn-home-card-btn {
+    background:#990033!important;
+    border-radius: 1rem !important;
+    font-family: 'Times New Roman', Times, serif;
+    width: 30%;
+    color: white !important;
+    font-size: large;
+    margin-bottom: 1rem !important;
+}
+
+/* Admin Title Box Styling */
+.admin-title-box {
+    background-color: #990033; /* Fully filled background color */
+    border-radius: 2rem; /* Blunt edges */
+    width: 18%;
+    text-align: center; /* Aligning the title to the left */
+    margin-bottom: 1rem;
+    
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
+
+.admin-title {
+    color: white !important; /* Title text color */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+/* Department Title Box Styling */
+.department-title-box {
+    background-color: #990033; /* Same filled background color */
+    border-radius: 2rem; /* Blunt edges */
+    width: 30%;
+    text-align: center; /* Aligning the title to the left */
+    margin-bottom: 1rem;
+   
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
+
+.department-title {
+    color: white !important; /* Title text color */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 350px) {
+    .btn-home-card-btn {
+        width: 70%;
+    }
+
+    .admin-title-box, .department-title-box {
+        width: 70%; /* Adjust width for smaller screens */
+    }
+
+    .admin-title, .department-title {
+        font-size: 1.5rem; /* Adjust title font size */
+    }
+}

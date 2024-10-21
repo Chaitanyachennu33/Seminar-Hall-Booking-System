@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+
+.department-login-body {
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: auto;
+    background: #DCDCDC;
+}
+
+.department-card {
+    background: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 50px !important;
+}
+
+.department-card-title {
+    font-family: 'Times New Roman', Times, serif;
+    color: #990033;
+    margin-left: 1rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.department-input-group {
+    display: flex;
+    align-items: center; /* Center align the icon and input */
+    margin-bottom: 2rem; /* Space between inputs */
+}
+
+.department-input-group i {
+    color:#990033; /* Icon color */
+    margin-right: 0.5rem; /* Space between icon and input */
+    font-size: 1.5rem; /* Adjust icon size */
+}
+
+.department-input {
+    background: #F5F5F5;
+    border-radius: 30px !important;
+    color: #990033;
+    height: 3rem !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large !important;
+    flex: 1; /* Make input take remaining space */
+    border: none; /* Remove border */
+}
+
+.btn-department-card {
+    background: #990033 !important;;
+    border-radius: 1rem !important;
+    font-family: 'Times New Roman', Times, serif;
+    color: white!important;
+    font-size: large;
+    margin-bottom: 1rem !important;
+}
+
+.home-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem !important;
+}
+
+@media only screen and (max-width: 300px) {
+    .department-card-title {
+        font-size: larger !important;
+    }
+}
+
+@media only screen and (max-width: 190px) {
+    .department-card-title {
+        font-size: small !important;
+    }
+}
+.home-text {
+    font-family: 'Times New Roman', Times, serif !important; /* Apply Times New Roman font */
+    font-size: large; /* Optional: adjust the font size if necessary */
+}

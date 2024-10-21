@@ -1,0 +1,20 @@
+
+
+.department-booking-body{
+    background: #DCDCDC;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+
+.department-booking-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color:#111111;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+

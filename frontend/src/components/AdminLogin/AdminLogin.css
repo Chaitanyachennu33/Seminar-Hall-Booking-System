@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+
+.admin-login-body {
+    width: 100vw;
+    background: #DCDCDC;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.admin-card {
+    background: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 50px !important;
+}
+
+.admin-card-title {
+    font-family: 'Times New Roman', Times, serif;
+    color:#990033;
+    margin-left: 1rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.admin-input {
+    background:#F5F5F5;
+    border-radius: 30px !important;
+    margin-bottom: 2rem;
+    color: #990033;
+    height: 3rem !important;
+    font-family: 'Julee', cursive !important;
+    font-size: large !important;
+}
+
+.btn-login-card {
+    
+        background-color: #990033 !important;  /* Set background color */
+        color: white !important;  /* Ensure the text is white for contrast */
+        border-radius: 30px;    /* Optional: Adjust the border radius */
+    
+    
+}
+
+.home-text {
+   font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
